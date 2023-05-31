@@ -8,6 +8,30 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 570
+    y: 133
+    width: 641
+    height: 809
+  m_ShowMode: 0
+  m_Title: Project Settings
+  m_RootView: {fileID: 4}
+  m_MinSize: {x: 310, y: 221}
+  m_MaxSize: {x: 4000, y: 4021}
+  m_Maximized: 0
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -19,12 +43,62 @@ MonoBehaviour:
     width: 1920
     height: 1109
   m_ShowMode: 4
-  m_Title: Hierarchy
-  m_RootView: {fileID: 9}
+  m_Title: Game
+  m_RootView: {fileID: 12}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
---- !u!114 &2
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectSettingsWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 641
+    height: 809
+  m_MinSize: {x: 310, y: 221}
+  m_MaxSize: {x: 4000, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 641
+    height: 809
+  m_MinSize: {x: 310, y: 221}
+  m_MaxSize: {x: 4000, y: 4021}
+  vertical: 0
+  controlID: 2334
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45,12 +119,12 @@ MonoBehaviour:
     height: 353
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 23}
   m_Panes:
-  - {fileID: 19}
+  - {fileID: 23}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &3
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -63,8 +137,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 12}
-  - {fileID: 2}
+  - {fileID: 15}
+  - {fileID: 5}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -74,8 +148,8 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 128
---- !u!114 &4
+  controlID: 109
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -96,12 +170,12 @@ MonoBehaviour:
     height: 537
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 14}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &5
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -114,8 +188,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 6}
-  - {fileID: 4}
+  - {fileID: 9}
+  - {fileID: 7}
   m_Position:
     serializedVersion: 2
     x: 1159
@@ -125,8 +199,8 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 98
---- !u!114 &6
+  controlID: 79
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,12 +221,12 @@ MonoBehaviour:
     height: 522
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &7
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,9 +239,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 3}
-  - {fileID: 5}
+  - {fileID: 6}
   - {fileID: 8}
+  - {fileID: 11}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -177,8 +251,8 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 56
---- !u!114 &8
+  controlID: 108
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -197,15 +271,15 @@ MonoBehaviour:
     y: 0
     width: 423
     height: 1059
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 15}
-  - {fileID: 13}
+  - {fileID: 19}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &9
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -218,9 +292,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+  - {fileID: 13}
   - {fileID: 10}
-  - {fileID: 7}
-  - {fileID: 11}
+  - {fileID: 14}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -233,7 +307,7 @@ MonoBehaviour:
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &10
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -255,7 +329,7 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &11
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -276,7 +350,7 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &12
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -297,13 +371,70 @@ MonoBehaviour:
     height: 706
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 22}
   m_Panes:
-  - {fileID: 17}
-  - {fileID: 18}
+  - {fileID: 21}
+  - {fileID: 22}
   m_Selected: 1
   m_LastSelected: 0
---- !u!114 &13
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13854, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 310, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Project Settings
+    m_Image: {fileID: -5712115415447495865, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 570
+    y: 133
+    width: 641
+    height: 788
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_PosLeft: {x: 0, y: 0}
+  m_PosRight: {x: 0, y: 840}
+  m_Scope: 1
+  m_SplitterFlex: 0.2
+  m_SearchText: input
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 4dcf9b58
+    m_LastClickedID: 1486606157
+    m_ExpandedIDs: a01a5fa653336be200000000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: input
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -323,9 +454,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1466
+    x: 1497
     y: 73
-    width: 453
+    width: 422
     height: 1038
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -335,13 +466,13 @@ MonoBehaviour:
   progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
-  currentBranchAndRemoteHasUpdate: 1
+  currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 1
   currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
-  changeTab: 2
-  activeTab: 2
+  changeTab: 3
+  activeTab: 3
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
@@ -425,11 +556,11 @@ MonoBehaviour:
     remoteBranches: []
   changesView:
     currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: 
-    currentBranch: '[unknown]'
+    currentBranch: '[Cart]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
@@ -442,12 +573,30 @@ MonoBehaviour:
         keys: []
         values: []
       title: 
-      pathSeparator: /
+      pathSeparator: \
       displayRootNode: 0
       isSelectable: 1
       isCheckable: 1
       isUsingGlobalSelection: 1
-      nodes: []
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
       selectedNode:
         path: 
         label: 
@@ -470,18 +619,948 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-05-31T09:50:04.172-06:00
+      cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-05-31T10:12:22.091-06:00
+      cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-05-31T10:11:47.395-06:00
+      cacheType: 7
   historyView:
-    currentLogHasUpdate: 1
-    currentTrackingStatusHasUpdate: 1
+    currentLogHasUpdate: 0
+    currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: ae0c778435efc7825c41342581cc9f435e9c6422
+      mergeA: 
+      mergeB: 
+      authorName: Carter Small
+      authorEmail: csmall@student.neumont.edu
+      commitEmail: csmall@student.neumont.edu
+      commitName: Carter Small
+      summary: Shooting Works
+      description: 
+      timeString: 2023-05-31T09:46:40.000-06:00
+      commitTimeString: 2023-05-31T09:46:40.000-06:00
+      changes:
+      - path: Assets\Data.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data.meta
+        projectPath: Assets\Data.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Data\Ammo.asset
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\Ammo.asset
+        projectPath: Assets\Data\Ammo.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Data\Ammo.asset.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\Ammo.asset.meta
+        projectPath: Assets\Data\Ammo.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Data\DefInven.asset
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\DefInven.asset
+        projectPath: Assets\Data\DefInven.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Data\DefInven.asset.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\DefInven.asset.meta
+        projectPath: Assets\Data\DefInven.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Data\Gun.asset
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\Gun.asset
+        projectPath: Assets\Data\Gun.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Data\Gun.asset.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\Gun.asset.meta
+        projectPath: Assets\Data\Gun.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Data\InputRouter.asset
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\InputRouter.asset
+        projectPath: Assets\Data\InputRouter.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Data\InputRouter.asset.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\InputRouter.asset.meta
+        projectPath: Assets\Data\InputRouter.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Data\Inventory.asset
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\Inventory.asset
+        projectPath: Assets\Data\Inventory.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Data\Inventory.asset.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\Inventory.asset.meta
+        projectPath: Assets\Data\Inventory.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Data\PlayerData.asset
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\PlayerData.asset
+        projectPath: Assets\Data\PlayerData.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Data\PlayerData.asset.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\PlayerData.asset.meta
+        projectPath: Assets\Data\PlayerData.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Data\PlayerInputActions.cs
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\PlayerInputActions.cs
+        projectPath: Assets\Data\PlayerInputActions.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Data\PlayerInputActions.cs.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\PlayerInputActions.cs.meta
+        projectPath: Assets\Data\PlayerInputActions.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Data\PlayerInputActions.inputactions
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\PlayerInputActions.inputactions
+        projectPath: Assets\Data\PlayerInputActions.inputactions
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Data\PlayerInputActions.inputactions.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\PlayerInputActions.inputactions.meta
+        projectPath: Assets\Data\PlayerInputActions.inputactions.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1.meta
+        projectPath: Assets\Low Poly Weapons VOL.1.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Gun_MAT.mat
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Gun_MAT.mat
+        projectPath: Assets\Low Poly Weapons VOL.1\Gun_MAT.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Gun_MAT.mat.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Gun_MAT.mat.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Gun_MAT.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Models.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\AK74.fbx
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\AK74.fbx
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\AK74.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\AK74.fbx.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\AK74.fbx.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\AK74.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\ANPEQ15.fbx
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\ANPEQ15.fbx
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\ANPEQ15.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\ANPEQ15.fbx.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\ANPEQ15.fbx.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\ANPEQ15.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\Bennelli_M4.fbx
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\Bennelli_M4.fbx
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\Bennelli_M4.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\Bennelli_M4.fbx.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\Bennelli_M4.fbx.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\Bennelli_M4.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\ELCAN.fbx
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\ELCAN.fbx
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\ELCAN.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\ELCAN.fbx.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\ELCAN.fbx.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\ELCAN.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\Flash.fbx
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\Flash.fbx
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\Flash.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\Flash.fbx.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\Flash.fbx.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\Flash.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\M107.fbx
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\M107.fbx
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\M107.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\M107.fbx.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\M107.fbx.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\M107.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\M1911.fbx
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\M1911.fbx
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\M1911.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\M1911.fbx.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\M1911.fbx.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\M1911.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\M249.fbx
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\M249.fbx
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\M249.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\M249.fbx.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\M249.fbx.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\M249.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\M2_50cal.fbx
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\M2_50cal.fbx
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\M2_50cal.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\M2_50cal.fbx.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\M2_50cal.fbx.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\M2_50cal.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\M4_8.fbx
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\M4_8.fbx
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\M4_8.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\M4_8.fbx.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\M4_8.fbx.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\M4_8.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\RGD-5.fbx
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\RGD-5.fbx
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\RGD-5.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\RGD-5.fbx.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\RGD-5.fbx.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\RGD-5.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\RPG7.fbx
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\RPG7.fbx
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\RPG7.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\RPG7.fbx.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\RPG7.fbx.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\RPG7.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\SR_Scope_00.fbx
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\SR_Scope_00.fbx
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\SR_Scope_00.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\SR_Scope_00.fbx.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\SR_Scope_00.fbx.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\SR_Scope_00.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\Smoke.fbx
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\Smoke.fbx
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\Smoke.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\Smoke.fbx.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\Smoke.fbx.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\Smoke.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\TAN_LR_Scope_01.fbx
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\TAN_LR_Scope_01.fbx
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\TAN_LR_Scope_01.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\TAN_LR_Scope_01.fbx.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\TAN_LR_Scope_01.fbx.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\TAN_LR_Scope_01.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\Uzi.fbx
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\Uzi.fbx
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\Uzi.fbx
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Models\Uzi.fbx.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Models\Uzi.fbx.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Models\Uzi.fbx.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\AK74.prefab
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\AK74.prefab
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\AK74.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\AK74.prefab.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\AK74.prefab.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\AK74.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\ANPEQ15.prefab
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\ANPEQ15.prefab
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\ANPEQ15.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\ANPEQ15.prefab.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\ANPEQ15.prefab.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\ANPEQ15.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\Bennelli_M4.prefab
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\Bennelli_M4.prefab
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\Bennelli_M4.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\Bennelli_M4.prefab.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\Bennelli_M4.prefab.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\Bennelli_M4.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\ELCAN.prefab
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\ELCAN.prefab
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\ELCAN.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\ELCAN.prefab.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\ELCAN.prefab.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\ELCAN.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\Flash.prefab
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\Flash.prefab
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\Flash.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\Flash.prefab.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\Flash.prefab.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\Flash.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\M107.prefab
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\M107.prefab
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\M107.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\M107.prefab.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\M107.prefab.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\M107.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\M1911.prefab
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\M1911.prefab
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\M1911.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\M1911.prefab.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\M1911.prefab.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\M1911.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\M249.prefab
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\M249.prefab
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\M249.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\M249.prefab.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\M249.prefab.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\M249.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\M2_50cal.prefab
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\M2_50cal.prefab
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\M2_50cal.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\M2_50cal.prefab.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\M2_50cal.prefab.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\M2_50cal.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\M4_8.prefab
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\M4_8.prefab
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\M4_8.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\M4_8.prefab.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\M4_8.prefab.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\M4_8.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\RGD-5.prefab
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\RGD-5.prefab
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\RGD-5.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\RGD-5.prefab.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\RGD-5.prefab.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\RGD-5.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\RPG7.prefab
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\RPG7.prefab
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\RPG7.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\RPG7.prefab.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\RPG7.prefab.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\RPG7.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\SR_Scope_00.prefab
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\SR_Scope_00.prefab
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\SR_Scope_00.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\SR_Scope_00.prefab.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\SR_Scope_00.prefab.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\SR_Scope_00.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\Smoke.prefab
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\Smoke.prefab
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\Smoke.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\Smoke.prefab.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\Smoke.prefab.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\Smoke.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\TAN_LR_Scope_01.prefab
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\TAN_LR_Scope_01.prefab
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\TAN_LR_Scope_01.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\TAN_LR_Scope_01.prefab.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\TAN_LR_Scope_01.prefab.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\TAN_LR_Scope_01.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\Uzi.prefab
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\Uzi.prefab
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\Uzi.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Prefabs\Uzi.prefab.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Prefabs\Uzi.prefab.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\Uzi.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Sample_Scene.unity
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Sample_Scene.unity
+        projectPath: Assets\Low Poly Weapons VOL.1\Sample_Scene.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Sample_Scene.unity.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Sample_Scene.unity.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Sample_Scene.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Sample_SceneSettings.lighting
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Sample_SceneSettings.lighting
+        projectPath: Assets\Low Poly Weapons VOL.1\Sample_SceneSettings.lighting
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Sample_SceneSettings.lighting.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Sample_SceneSettings.lighting.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Sample_SceneSettings.lighting.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Textures_Guns.png
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Textures_Guns.png
+        projectPath: Assets\Low Poly Weapons VOL.1\Textures_Guns.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Low Poly Weapons VOL.1\Textures_Guns.png.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+          Poly Weapons VOL.1\Textures_Guns.png.meta
+        projectPath: Assets\Low Poly Weapons VOL.1\Textures_Guns.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts.meta
+        projectPath: Assets\Personal Scripts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\Ammo.cs
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\Ammo.cs
+        projectPath: Assets\Personal Scripts\Ammo.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\Ammo.cs.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\Ammo.cs.meta
+        projectPath: Assets\Personal Scripts\Ammo.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\AmmoCollider.cs
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\AmmoCollider.cs
+        projectPath: Assets\Personal Scripts\AmmoCollider.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\AmmoCollider.cs.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\AmmoCollider.cs.meta
+        projectPath: Assets\Personal Scripts\AmmoCollider.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\AmmoData.cs
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\AmmoData.cs
+        projectPath: Assets\Personal Scripts\AmmoData.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\AmmoData.cs.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\AmmoData.cs.meta
+        projectPath: Assets\Personal Scripts\AmmoData.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\CharacterPlayer.cs
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\CharacterPlayer.cs
+        projectPath: Assets\Personal Scripts\CharacterPlayer.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\CharacterPlayer.cs.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\CharacterPlayer.cs.meta
+        projectPath: Assets\Personal Scripts\CharacterPlayer.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\CollisionEvent.cs
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\CollisionEvent.cs
+        projectPath: Assets\Personal Scripts\CollisionEvent.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\CollisionEvent.cs.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\CollisionEvent.cs.meta
+        projectPath: Assets\Personal Scripts\CollisionEvent.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\InputRouter.cs
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\InputRouter.cs
+        projectPath: Assets\Personal Scripts\InputRouter.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\InputRouter.cs.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\InputRouter.cs.meta
+        projectPath: Assets\Personal Scripts\InputRouter.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\Interactable.cs
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\Interactable.cs
+        projectPath: Assets\Personal Scripts\Interactable.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\Interactable.cs.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\Interactable.cs.meta
+        projectPath: Assets\Personal Scripts\Interactable.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\Inventory.cs
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\Inventory.cs
+        projectPath: Assets\Personal Scripts\Inventory.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\Inventory.cs.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\Inventory.cs.meta
+        projectPath: Assets\Personal Scripts\Inventory.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\InventoryData.cs
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\InventoryData.cs
+        projectPath: Assets\Personal Scripts\InventoryData.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\InventoryData.cs.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\InventoryData.cs.meta
+        projectPath: Assets\Personal Scripts\InventoryData.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\Item.cs
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\Item.cs
+        projectPath: Assets\Personal Scripts\Item.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\Item.cs.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\Item.cs.meta
+        projectPath: Assets\Personal Scripts\Item.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\ItemData.cs
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\ItemData.cs
+        projectPath: Assets\Personal Scripts\ItemData.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\ItemData.cs.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\ItemData.cs.meta
+        projectPath: Assets\Personal Scripts\ItemData.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\ItemPickup.cs
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\ItemPickup.cs
+        projectPath: Assets\Personal Scripts\ItemPickup.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\ItemPickup.cs.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\ItemPickup.cs.meta
+        projectPath: Assets\Personal Scripts\ItemPickup.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\ItemStack.cs
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\ItemStack.cs
+        projectPath: Assets\Personal Scripts\ItemStack.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\ItemStack.cs.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\ItemStack.cs.meta
+        projectPath: Assets\Personal Scripts\ItemStack.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\PlayerData.cs
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\PlayerData.cs
+        projectPath: Assets\Personal Scripts\PlayerData.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\PlayerData.cs.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\PlayerData.cs.meta
+        projectPath: Assets\Personal Scripts\PlayerData.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\Weapon.cs
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\Weapon.cs
+        projectPath: Assets\Personal Scripts\Weapon.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\Weapon.cs.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\Weapon.cs.meta
+        projectPath: Assets\Personal Scripts\Weapon.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\WeaponData.cs
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\WeaponData.cs
+        projectPath: Assets\Personal Scripts\WeaponData.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Personal Scripts\WeaponData.cs.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+          Scripts\WeaponData.cs.meta
+        projectPath: Assets\Personal Scripts\WeaponData.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Gun.prefab
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Prefabs\Gun.prefab
+        projectPath: Assets\Prefabs\Gun.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Gun.prefab.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Prefabs\Gun.prefab.meta
+        projectPath: Assets\Prefabs\Gun.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\GunAmmo.prefab
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Prefabs\GunAmmo.prefab
+        projectPath: Assets\Prefabs\GunAmmo.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\GunAmmo.prefab.meta
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Prefabs\GunAmmo.prefab.meta
+        projectPath: Assets\Prefabs\GunAmmo.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\PlayerCapsule.prefab
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Prefabs\PlayerCapsule.prefab
+        projectPath: Assets\Prefabs\PlayerCapsule.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scenes\Playground.unity
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Scenes\Playground.unity
+        projectPath: Assets\Scenes\Playground.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\FirstPersonController.cs
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Scripts\FirstPersonController.cs
+        projectPath: Assets\Scripts\FirstPersonController.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Search.settings
+        fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\UserSettings\Search.settings
+        projectPath: UserSettings\Search.settings
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
     - commitID: c2535fb69991dceb42a1393cd8c437f7b34b0bbf
       mergeA: 
       mergeB: 
@@ -2068,14 +3147,944 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2023-05-30T21:39:20.742-06:00
+      updatedTimeString: 2023-05-31T09:50:04.963-06:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2023-05-30T21:39:20.726-06:00
+      updatedTimeString: 2023-05-31T09:50:06.566-06:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: ae0c778435efc7825c41342581cc9f435e9c6422
+        mergeA: 
+        mergeB: 
+        authorName: Carter Small
+        authorEmail: csmall@student.neumont.edu
+        commitEmail: csmall@student.neumont.edu
+        commitName: Carter Small
+        summary: Shooting Works
+        description: 
+        timeString: 2023-05-31T09:46:40.000-06:00
+        commitTimeString: 2023-05-31T09:46:40.000-06:00
+        changes:
+        - path: Assets\Data.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data.meta
+          projectPath: Assets\Data.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Data\Ammo.asset
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\Ammo.asset
+          projectPath: Assets\Data\Ammo.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Data\Ammo.asset.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\Ammo.asset.meta
+          projectPath: Assets\Data\Ammo.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Data\DefInven.asset
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\DefInven.asset
+          projectPath: Assets\Data\DefInven.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Data\DefInven.asset.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\DefInven.asset.meta
+          projectPath: Assets\Data\DefInven.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Data\Gun.asset
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\Gun.asset
+          projectPath: Assets\Data\Gun.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Data\Gun.asset.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\Gun.asset.meta
+          projectPath: Assets\Data\Gun.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Data\InputRouter.asset
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\InputRouter.asset
+          projectPath: Assets\Data\InputRouter.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Data\InputRouter.asset.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\InputRouter.asset.meta
+          projectPath: Assets\Data\InputRouter.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Data\Inventory.asset
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\Inventory.asset
+          projectPath: Assets\Data\Inventory.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Data\Inventory.asset.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\Inventory.asset.meta
+          projectPath: Assets\Data\Inventory.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Data\PlayerData.asset
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\PlayerData.asset
+          projectPath: Assets\Data\PlayerData.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Data\PlayerData.asset.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\PlayerData.asset.meta
+          projectPath: Assets\Data\PlayerData.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Data\PlayerInputActions.cs
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\PlayerInputActions.cs
+          projectPath: Assets\Data\PlayerInputActions.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Data\PlayerInputActions.cs.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\PlayerInputActions.cs.meta
+          projectPath: Assets\Data\PlayerInputActions.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Data\PlayerInputActions.inputactions
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\PlayerInputActions.inputactions
+          projectPath: Assets\Data\PlayerInputActions.inputactions
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Data\PlayerInputActions.inputactions.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Data\PlayerInputActions.inputactions.meta
+          projectPath: Assets\Data\PlayerInputActions.inputactions.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1.meta
+          projectPath: Assets\Low Poly Weapons VOL.1.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Gun_MAT.mat
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Gun_MAT.mat
+          projectPath: Assets\Low Poly Weapons VOL.1\Gun_MAT.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Gun_MAT.mat.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Gun_MAT.mat.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Gun_MAT.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Models.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\AK74.fbx
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\AK74.fbx
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\AK74.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\AK74.fbx.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\AK74.fbx.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\AK74.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\ANPEQ15.fbx
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\ANPEQ15.fbx
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\ANPEQ15.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\ANPEQ15.fbx.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\ANPEQ15.fbx.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\ANPEQ15.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\Bennelli_M4.fbx
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\Bennelli_M4.fbx
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\Bennelli_M4.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\Bennelli_M4.fbx.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\Bennelli_M4.fbx.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\Bennelli_M4.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\ELCAN.fbx
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\ELCAN.fbx
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\ELCAN.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\ELCAN.fbx.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\ELCAN.fbx.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\ELCAN.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\Flash.fbx
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\Flash.fbx
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\Flash.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\Flash.fbx.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\Flash.fbx.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\Flash.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\M107.fbx
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\M107.fbx
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\M107.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\M107.fbx.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\M107.fbx.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\M107.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\M1911.fbx
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\M1911.fbx
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\M1911.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\M1911.fbx.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\M1911.fbx.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\M1911.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\M249.fbx
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\M249.fbx
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\M249.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\M249.fbx.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\M249.fbx.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\M249.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\M2_50cal.fbx
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\M2_50cal.fbx
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\M2_50cal.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\M2_50cal.fbx.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\M2_50cal.fbx.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\M2_50cal.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\M4_8.fbx
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\M4_8.fbx
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\M4_8.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\M4_8.fbx.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\M4_8.fbx.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\M4_8.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\RGD-5.fbx
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\RGD-5.fbx
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\RGD-5.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\RGD-5.fbx.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\RGD-5.fbx.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\RGD-5.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\RPG7.fbx
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\RPG7.fbx
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\RPG7.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\RPG7.fbx.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\RPG7.fbx.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\RPG7.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\SR_Scope_00.fbx
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\SR_Scope_00.fbx
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\SR_Scope_00.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\SR_Scope_00.fbx.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\SR_Scope_00.fbx.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\SR_Scope_00.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\Smoke.fbx
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\Smoke.fbx
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\Smoke.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\Smoke.fbx.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\Smoke.fbx.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\Smoke.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\TAN_LR_Scope_01.fbx
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\TAN_LR_Scope_01.fbx
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\TAN_LR_Scope_01.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\TAN_LR_Scope_01.fbx.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\TAN_LR_Scope_01.fbx.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\TAN_LR_Scope_01.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\Uzi.fbx
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\Uzi.fbx
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\Uzi.fbx
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Models\Uzi.fbx.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Models\Uzi.fbx.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Models\Uzi.fbx.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\AK74.prefab
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\AK74.prefab
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\AK74.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\AK74.prefab.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\AK74.prefab.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\AK74.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\ANPEQ15.prefab
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\ANPEQ15.prefab
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\ANPEQ15.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\ANPEQ15.prefab.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\ANPEQ15.prefab.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\ANPEQ15.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\Bennelli_M4.prefab
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\Bennelli_M4.prefab
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\Bennelli_M4.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\Bennelli_M4.prefab.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\Bennelli_M4.prefab.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\Bennelli_M4.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\ELCAN.prefab
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\ELCAN.prefab
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\ELCAN.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\ELCAN.prefab.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\ELCAN.prefab.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\ELCAN.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\Flash.prefab
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\Flash.prefab
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\Flash.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\Flash.prefab.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\Flash.prefab.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\Flash.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\M107.prefab
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\M107.prefab
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\M107.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\M107.prefab.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\M107.prefab.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\M107.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\M1911.prefab
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\M1911.prefab
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\M1911.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\M1911.prefab.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\M1911.prefab.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\M1911.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\M249.prefab
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\M249.prefab
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\M249.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\M249.prefab.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\M249.prefab.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\M249.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\M2_50cal.prefab
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\M2_50cal.prefab
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\M2_50cal.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\M2_50cal.prefab.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\M2_50cal.prefab.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\M2_50cal.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\M4_8.prefab
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\M4_8.prefab
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\M4_8.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\M4_8.prefab.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\M4_8.prefab.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\M4_8.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\RGD-5.prefab
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\RGD-5.prefab
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\RGD-5.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\RGD-5.prefab.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\RGD-5.prefab.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\RGD-5.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\RPG7.prefab
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\RPG7.prefab
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\RPG7.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\RPG7.prefab.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\RPG7.prefab.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\RPG7.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\SR_Scope_00.prefab
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\SR_Scope_00.prefab
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\SR_Scope_00.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\SR_Scope_00.prefab.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\SR_Scope_00.prefab.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\SR_Scope_00.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\Smoke.prefab
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\Smoke.prefab
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\Smoke.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\Smoke.prefab.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\Smoke.prefab.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\Smoke.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\TAN_LR_Scope_01.prefab
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\TAN_LR_Scope_01.prefab
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\TAN_LR_Scope_01.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\TAN_LR_Scope_01.prefab.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\TAN_LR_Scope_01.prefab.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\TAN_LR_Scope_01.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\Uzi.prefab
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\Uzi.prefab
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\Uzi.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Prefabs\Uzi.prefab.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Prefabs\Uzi.prefab.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Prefabs\Uzi.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Sample_Scene.unity
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Sample_Scene.unity
+          projectPath: Assets\Low Poly Weapons VOL.1\Sample_Scene.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Sample_Scene.unity.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Sample_Scene.unity.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Sample_Scene.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Sample_SceneSettings.lighting
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Sample_SceneSettings.lighting
+          projectPath: Assets\Low Poly Weapons VOL.1\Sample_SceneSettings.lighting
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Sample_SceneSettings.lighting.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Sample_SceneSettings.lighting.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Sample_SceneSettings.lighting.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Textures_Guns.png
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Textures_Guns.png
+          projectPath: Assets\Low Poly Weapons VOL.1\Textures_Guns.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Low Poly Weapons VOL.1\Textures_Guns.png.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Low
+            Poly Weapons VOL.1\Textures_Guns.png.meta
+          projectPath: Assets\Low Poly Weapons VOL.1\Textures_Guns.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts.meta
+          projectPath: Assets\Personal Scripts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\Ammo.cs
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\Ammo.cs
+          projectPath: Assets\Personal Scripts\Ammo.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\Ammo.cs.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\Ammo.cs.meta
+          projectPath: Assets\Personal Scripts\Ammo.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\AmmoCollider.cs
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\AmmoCollider.cs
+          projectPath: Assets\Personal Scripts\AmmoCollider.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\AmmoCollider.cs.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\AmmoCollider.cs.meta
+          projectPath: Assets\Personal Scripts\AmmoCollider.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\AmmoData.cs
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\AmmoData.cs
+          projectPath: Assets\Personal Scripts\AmmoData.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\AmmoData.cs.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\AmmoData.cs.meta
+          projectPath: Assets\Personal Scripts\AmmoData.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\CharacterPlayer.cs
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\CharacterPlayer.cs
+          projectPath: Assets\Personal Scripts\CharacterPlayer.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\CharacterPlayer.cs.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\CharacterPlayer.cs.meta
+          projectPath: Assets\Personal Scripts\CharacterPlayer.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\CollisionEvent.cs
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\CollisionEvent.cs
+          projectPath: Assets\Personal Scripts\CollisionEvent.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\CollisionEvent.cs.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\CollisionEvent.cs.meta
+          projectPath: Assets\Personal Scripts\CollisionEvent.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\InputRouter.cs
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\InputRouter.cs
+          projectPath: Assets\Personal Scripts\InputRouter.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\InputRouter.cs.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\InputRouter.cs.meta
+          projectPath: Assets\Personal Scripts\InputRouter.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\Interactable.cs
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\Interactable.cs
+          projectPath: Assets\Personal Scripts\Interactable.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\Interactable.cs.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\Interactable.cs.meta
+          projectPath: Assets\Personal Scripts\Interactable.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\Inventory.cs
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\Inventory.cs
+          projectPath: Assets\Personal Scripts\Inventory.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\Inventory.cs.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\Inventory.cs.meta
+          projectPath: Assets\Personal Scripts\Inventory.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\InventoryData.cs
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\InventoryData.cs
+          projectPath: Assets\Personal Scripts\InventoryData.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\InventoryData.cs.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\InventoryData.cs.meta
+          projectPath: Assets\Personal Scripts\InventoryData.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\Item.cs
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\Item.cs
+          projectPath: Assets\Personal Scripts\Item.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\Item.cs.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\Item.cs.meta
+          projectPath: Assets\Personal Scripts\Item.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\ItemData.cs
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\ItemData.cs
+          projectPath: Assets\Personal Scripts\ItemData.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\ItemData.cs.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\ItemData.cs.meta
+          projectPath: Assets\Personal Scripts\ItemData.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\ItemPickup.cs
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\ItemPickup.cs
+          projectPath: Assets\Personal Scripts\ItemPickup.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\ItemPickup.cs.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\ItemPickup.cs.meta
+          projectPath: Assets\Personal Scripts\ItemPickup.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\ItemStack.cs
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\ItemStack.cs
+          projectPath: Assets\Personal Scripts\ItemStack.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\ItemStack.cs.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\ItemStack.cs.meta
+          projectPath: Assets\Personal Scripts\ItemStack.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\PlayerData.cs
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\PlayerData.cs
+          projectPath: Assets\Personal Scripts\PlayerData.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\PlayerData.cs.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\PlayerData.cs.meta
+          projectPath: Assets\Personal Scripts\PlayerData.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\Weapon.cs
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\Weapon.cs
+          projectPath: Assets\Personal Scripts\Weapon.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\Weapon.cs.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\Weapon.cs.meta
+          projectPath: Assets\Personal Scripts\Weapon.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\WeaponData.cs
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\WeaponData.cs
+          projectPath: Assets\Personal Scripts\WeaponData.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Personal Scripts\WeaponData.cs.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Personal
+            Scripts\WeaponData.cs.meta
+          projectPath: Assets\Personal Scripts\WeaponData.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Gun.prefab
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Prefabs\Gun.prefab
+          projectPath: Assets\Prefabs\Gun.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Gun.prefab.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Prefabs\Gun.prefab.meta
+          projectPath: Assets\Prefabs\Gun.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\GunAmmo.prefab
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Prefabs\GunAmmo.prefab
+          projectPath: Assets\Prefabs\GunAmmo.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\GunAmmo.prefab.meta
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Prefabs\GunAmmo.prefab.meta
+          projectPath: Assets\Prefabs\GunAmmo.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\PlayerCapsule.prefab
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Prefabs\PlayerCapsule.prefab
+          projectPath: Assets\Prefabs\PlayerCapsule.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scenes\Playground.unity
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Scenes\Playground.unity
+          projectPath: Assets\Scenes\Playground.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\FirstPersonController.cs
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\Assets\Scripts\FirstPersonController.cs
+          projectPath: Assets\Scripts\FirstPersonController.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Search.settings
+          fullPath: C:\Users\CarterS\OneDrive\School\Second Year\Game Physics\PhysicsCA\UserSettings\Search.settings
+          projectPath: UserSettings\Search.settings
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
       - commitID: c2535fb69991dceb42a1393cd8c437f7b34b0bbf
         mergeA: 
         mergeB: 
@@ -3786,14 +5795,14 @@ MonoBehaviour:
       m_Tooltip: 
   hasRemote: 1
   currentRemoteName: origin
-  currentBranch: master
+  currentBranch: Cart
   currentRemoteUrl: https://github.com/IcyGlaceon/PhysicsCA.git
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 1
+  hasItemsToCommit: 0
   isTrackingRemoteBranch: 1
   currentBranchContent:
-    m_Text: master
+    m_Text: Cart
     m_Image: {fileID: 0}
     m_Tooltip: Active branch
   currentRemoteUrlContent:
@@ -3801,13 +5810,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-05-30T14:30:11.236-06:00
+    updatedTimeString: 2023-05-31T09:50:04.172-06:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-05-30T14:30:13.446-06:00
+    updatedTimeString: 2023-05-31T10:00:21.497-06:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-05-30T14:30:13.437-06:00
+    updatedTimeString: 2023-05-31T10:00:21.490-06:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -3831,7 +5840,7 @@ MonoBehaviour:
   appManagerProgressMessage: Initialized
   connections: []
   primaryConnectionUsername: 
---- !u!114 &14
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3889,7 +5898,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 96700000
     m_LastClickedID: 28822
-    m_ExpandedIDs: 0000000080700000827000008470000086700000887000008a7000008c7000008e700000907000009270000094700000
+    m_ExpandedIDs: 000000004c7000004e70000050700000527000005470000056700000587000005a7000005c7000005e7000006070000062700000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3914,10 +5923,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 450.5003}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff0000000080700000827000008470000086700000887000008a7000008c7000008e700000907000009270000094700000cc700000
+    m_ExpandedIDs: ffffffff000000004c7000004e70000050700000527000005470000056700000587000005a7000005c7000005e7000006070000062700000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3933,7 +5942,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 12}
+      m_ClientGUIView: {fileID: 15}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -3973,7 +5982,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 228
---- !u!114 &15
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4016,7 +6025,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &16
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4049,25 +6058,25 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: b8f8fffffcfaffff00fbffff14fbffff
+      m_SelectedIDs: 726b0000
+      m_LastClickedID: 27506
+      m_ExpandedIDs: 14fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Camera
-        m_OriginalName: Camera
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -15812
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 6}
+        m_ClientGUIView: {fileID: 9}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -4075,7 +6084,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &17
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4415,7 +6424,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &18
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4509,7 +6518,7 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &19
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
