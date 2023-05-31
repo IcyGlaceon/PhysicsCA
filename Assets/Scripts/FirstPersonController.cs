@@ -51,8 +51,12 @@ namespace StarterAssets
 		[Tooltip("How far in degrees can you move the camera down")]
 		public float BottomClamp = -90.0f;
 
-		// cinemachine
-		private float _cinemachineTargetPitch;
+        //Inventory
+        [SerializeField] private Inventory inventory;
+
+
+        // cinemachine
+        private float _cinemachineTargetPitch;
 
 		// player
 		private float _speed;
@@ -264,5 +268,20 @@ namespace StarterAssets
 			// when selected, draw a gizmo in the position of, and matching radius of, the grounded collider
 			Gizmos.DrawSphere(new Vector3(transform.position.x, transform.position.y - GroundedOffset, transform.position.z), GroundedRadius);
 		}
-	}
+
+        public void OnFire()
+        {
+            inventory.Use();
+        }
+
+        public void OnFireStop()
+        {
+            inventory.StopUse();
+        }
+
+        public void OnNextItem()
+        {
+            inventory.EquipNextItem();
+        }
+    }
 }
