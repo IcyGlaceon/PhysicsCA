@@ -43,12 +43,6 @@ public class GameManager : Singleton<GameManager>
 				Cursor.visible = true;
 				gameTime = gameTimer;
 
-				var enemies = GameObject.FindGameObjectsWithTag("Enemy");
-
-				foreach ( var enemy in enemies )
-				{
-					Destroy(enemy);
-				}
 
 				break;
 				
