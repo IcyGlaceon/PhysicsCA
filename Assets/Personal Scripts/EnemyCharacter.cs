@@ -6,15 +6,15 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class EnemyCharacter : MonoBehaviour
 {    
-    //private Camera mainCamera;
-    //private NavMeshAgent navMeshAgent;
-    //private Transform target;
+    private Camera mainCamera;
+    private NavMeshAgent navMeshAgent;
+    private Transform target;
 
     private void Start()
     {
-        //target = GameObject.FindGameObjectWithTag("Player")?.transform;
-        //navMeshAgent = GetComponent<NavMeshAgent>();
-        //mainCamera = Camera.main;
+        target = GameObject.FindGameObjectWithTag("Player")?.transform;
+        navMeshAgent = GetComponent<NavMeshAgent>();
+        mainCamera = Camera.main;
         GetComponent<Health>().onDeath += OnDeath;
     }
 

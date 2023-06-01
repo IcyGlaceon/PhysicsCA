@@ -12,6 +12,12 @@ public class AmmoCollider : Ammo
 
 		// register collision event
 		GetComponent<CollisionEvent>().onEnter += OnDamage;
+
 		Destroy(gameObject, ammoData.lifetime);
 	}
+
+    private void OnCollisionEnter(Collision collision)
+    {
+		if (collision.gameObject.tag == "Enemy") Debug.Log("Target Hit");
+    }
 }
