@@ -22,7 +22,7 @@ public class Weapon : Item
 	{
 		base.Equip();
 		weaponReady = true;
-		if(weaponData.animEquipName != "") animator.SetBool(weaponData.animEquipName, true);
+		//if(weaponData.animEquipName != "") animator.SetBool(weaponData.animEquipName, true);
 	}
 
 	public override void Unequip()

@@ -18,7 +18,7 @@ MonoBehaviour:
   allowMultiple: 0
   equipable: 1
   itemType: 1
-  usageType: 1
+  usageType: 0
   animTriggerName: 
   animEquipName: WeaponEquip
   itemPrefab: {fileID: 0}
